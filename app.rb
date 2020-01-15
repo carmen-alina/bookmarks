@@ -1,13 +1,15 @@
 require 'sinatra/base'
+require './lib/bookmark'
 
-class Bookmarks < Sinatra::Base
+class BookmarkManager < Sinatra::Base
 
   get '/' do
-
+    'Bookmark Manager'
   end
 
   get '/bookmarks' do
-    
+    @bookmarks = Bookmark.all
+    erb :'bookmarks/index'
   end
 
   #starts the server if ruby file excuted directly

@@ -1,8 +1,9 @@
 #  Write a user story for showing a list of bookmarks
 
-As a User
-So I can quickly access useful information
-I'd like to see a list the bookmarks saved by all the users
+..User_story_1:
+..As a User
+..So I can quickly access the websites that I found useful
+..I'd like to see a list of saved bookmarks
 
-User ----> Bookmarks
-      see
+..Diagram:
+..![alt_text](https://github.com/carmen-alina/bookmarks/user_story_1.svg)
