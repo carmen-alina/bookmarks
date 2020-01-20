@@ -14,12 +14,3 @@
   </li>
   <% end %>
 </ul>
-
-<p>
-  <% flash.keys.each do |type| %>
-  <div data-alert class="flash <%= type %> alert-box radius">
-    <%= flash[:alert] %>
-    <a href="#" class="close">&times;</a>
-  </div>
-<% end %>
-</p>
